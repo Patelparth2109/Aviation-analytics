@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Databricks
+.databricks/
+*.dbc
+
+# Data (raw files live in the Unity Catalog volume, not in git)
+data/
+*.csv
+*.parquet
+
+# Secrets / local config
+.env
+.databrickscfg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
